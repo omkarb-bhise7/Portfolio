@@ -1,0 +1,57 @@
+/* Style for main container that holds both side-by-side containers */
+.main-container {
+    background: #f4f5b0f6;
+    display: flex; /* Flexbox to arrange items side by side */
+    justify-content: space-between; /* Adds space between the two containers */
+    padding: 20px;
+  
+}
+
+/* Common styles for both containers */
+.container {
+    width: 48%; /* Take 48% of the container width for each */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Left container specific styles */
+.left-container {
+    background-color: #f4f4f4;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #37c93a;
+    width: 35%;
+}
+
+/* Right container specific styles */
+.right-container {
+    background-color: #e2e2e2;
+    font-size: 20px;
+    margin-left: 5px;
+    color: #f30b7f;
+    width: 35%;
+    margin-right: 15%;
+}
+
+/* Adding some basic styles for lists */
+ul {
+    list-style-type: none;
+    padding: 0; 
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.left-containerr{
+    background: #032c35;
+    background-color: hsla(0, 0%, 96%, 0.785);
+    font-size: 20px;
+    margin-left: 30px;
+    color: #b52b2b;
+    width: 35%;
+    
+}

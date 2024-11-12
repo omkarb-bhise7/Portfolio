@@ -1,0 +1,101 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #6dee0a;
+    
+}
+
+/* Introduction text styles */
+.intro-text {
+    line-height: 1.8;
+    color: #333;
+    font-size: 1.1em;
+}
+
+/* Highlighted text styles */
+.highlight {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Name and company styles */
+.name {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.company {
+    font-style: italic;
+    color: #555;
+}
+
+/* Paragraph styling */
+p {
+    margin-bottom: 15px;
+}
+
+
+/* Heading for Projects section */
+.projects-heading {
+    font-size: 2rem;
+    color: #00ae86;
+    margin-bottom: 20px; /* Add space below the heading */
+    font-weight: bold;
+    
+  
+    
+    
+}
+
+/* Styling for each project item */
+.project-item {
+    margin-bottom: 20px; /* Add space between each project */
+    padding: 15px;
+    background-color: #f9f9f9; /* Light gray background for each project */
+    border-left: 5px solid #6dee0a; /* Green left border */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Add shadow to each project item */
+    transition: all 0.3s ease; /* Smooth transition effect */
+   width: auto;
+   width: 75%;
+   
+}
+
+.project-item:hover {
+    transform: translateY(-5px); /* Lift the project item when hovered */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+}
+
+/* Styling for the project name */
+.project-item h3 {
+    font-size: 1.5rem;
+    color: #7800a0;
+    margin-bottom: 10px; /* Space between the title and description */
+    font-weight: 600;
+}
+
+/* Styling for the project description */
+.project-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6; /* Increase line height for readability */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+.projects-container{
+    margin-left: 150px;
+}
